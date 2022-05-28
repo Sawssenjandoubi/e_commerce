@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ca85008e70.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <title>CARA</title>
+    <script>
+      $(document).ready(function () {
+        $("icon_humburger").click(function () {
+          $("liste").stop(true, true).slideToggle();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a><img src="./assets/logo.png" id="logo" /></a>
+      <ul id="liste">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <a><i class="fa-solid fa-bag-shopping"></i></a>
+        </li>
+      </ul>
+      <div class="icon_navbar_non_display">
+        <a><i class="fa-solid fa-bag-shopping"></i></a>
+        <i class="fa-solid fa-bars" id="icon_humburger"></i>
+      </div>
+    </nav>
+
+    <div class="main">
+      <h4>Trade-in-offer</h4>
+      <h1>Super value deals</h1>
+      <h2>On all products</h2>
+      <p style="color: gray">Save more with coupons & up to 70% off!</p>
+      <button type="submit" value="BUY NOW" id="bt_shop_now">SHOP NOW</button>
+    </div>
+
+    <div class="boxes">
+      <div class="box">
+        <img src="./assets/features/f1.png" />
+        <p style="background-color: pink">Free Shipping</p>
+      </div>
+      <div class="box">
+        <img src="./assets/features/f2.png" />
+        <p style="background-color: green">Online Order</p>
+      </div>
+
+      <div class="box">
+        <img src="./assets/features/f3.png" />
+        <p style="background-color: rgb(207, 245, 207)">Save Money</p>
+      </div>
+      <div class="box">
+        <img src="./assets/features/f4.png" />
+        <p style="background-color: rgb(195, 195, 248); font-size: 14px">
+          Promotions
+        </p>
+      </div>
+      <div class="box">
+        <img src="./assets/features/f5.png" />
+        <p style="background-color: rgb(248, 218, 223)">Happy Sell</p>
+      </div>
+      <div class="box">
+        <img src="./assets/features/f6.png" />
+        <p style="background-color: rgb(248, 230, 238)">F24/7 Support</p>
+      </div>
+    </div>
+    <div class="featured_product">
+      <h1>Featured Products</h1>
+      <p style="color: gray">Summer Collection New Morden Design</p>
+    </div>
+    <div class="boxes_product">
+      <div class="box_product">
+        <img src="./assets/products/f1.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <!--prod2-->
+      <div class="box_product">
+        <img src="./assets/products/f2.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+      <!--prod3-->
+      <div class="box_product">
+        <img src="./assets/products/f3.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+      <!--prod4-->
+      <div class="box_product">
+        <img src="./assets/products/f4.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+      <!--prod5-->
+      <div class="box_product">
+        <img src="./assets/products/f5.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+      <!--prod6-->
+      <div class="box_product">
+        <img src="./assets/products/f6.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+      <!--prod 7-->
+      <div class="box_product">
+        <img src="./assets/products/f7.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">150</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+      <!--prod 8-->
+      <div class="box_product">
+        <img src="./assets/products/f8.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">50</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+    </div>
+    <div class="section_repair_srv">
+      <p>Repair Services</p>
+      <h2>Up to <span id="off">70% Off</span>-All-t Shirts & Accessories</h2>
+      <button id="Explore">Explore More</button>
+    </div>
+    <div class="parag_new_arrival">
+      <h1>New Arrivals</h1>
+      <p style="color: grey">Summer Collection New Morden Design</p>
+    </div>
+    <div class="new_arrival">
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n1.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n2.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n3.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n4.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n5.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n6.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n7.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+
+      <div class="box_new_arrivals">
+        <img src="./assets/products/n8.jpg" />
+        <p>adidas</p>
+        <h6>Cartoon Astronout T-Shirts</h6>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="prix">100</span>
+        <div id="chariot">
+          <i class="fa-solid fa-cart-shopping bag_shopping"></i>
+        </div>
+      </div>
+    </div>
+    <div class="box_of_2img">
+      <div class="first_img">
+        <p>Crazy Dools</p>
+        <h2>buy 1 get 1 free</h2>
+        <p>The Best classic dress is on sole at Coro</p>
+        <button id="bt_learn_more">Learn More</button>
+      </div>
+
+      <div class="first_img">
+        <p>Spring/Summer</p>
+        <h2>Upcamming Season</h2>
+        <p>The Best classic dress is on sole at Coro</p>
+        <button id="bt_collection">Collection</button>
+      </div>
+    </div>
+    <div class="box_of_3img">
+      <div class="first_box_of3">
+        <h1>SEASONAL SALE</h1>
+        <h3>Winter Collection</h3>
+      </div>
+      <div class="first_box_of3">
+        <h1>NEW FOOTWARE COLLECTION</h1>
+        <h3>Spring/Summer 2022</h3>
+      </div>
+      <div class="first_box_of3">
+        <h1>T-SHIRTS</h1>
+        <h3>Spring/Summer 2022</h3>
+      </div>
+    </div>
+    <div class="newsletter">
+      <div class="newletter_parag">
+        <h1>Sign Up For NewsLetter</h1>
+        <p>
+          Get E-mail Updates About Obout Latest Shop
+          <span style="color: #ffbd27">Special Offers</span>
+        </p>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Your email adress" />
+        <button>SignUp</button>
+      </div>
+    </div>
+    <footer>
+      <div class="contact">
+        <img src="./assets/logo.png" id="logo_cara" />
+        <h4>Contact</h4>
+        <p>
+          <span class="gras">Adress :</span>562 Wellnegton Road Street 32
+          Francisco
+        </p>
+        <p><span class="gras">Phone :</span>+01 2222 365 +(01) 01 2345 6789</p>
+        <p><span class="gras">Hours :</span>10.00 - 18.00 Mon-Sat</p>
+        <br />
+        <h5>Follow Us</h5>
+        <br />
+        <div class="logo">
+          <img src="assets/facebook.png" />
+          <img src="./assets/twitter.png" />
+          <img src="./assets/instagram.png" />
+          <img src="./assets/whatsapp.png" />
+        </div>
+        <p style="font-size: 16px; width: 150%">2022 © tous droits réservés.</p>
+      </div>
+      <div class="contact">
+        <h4>About</h4>
+        <br />
+        <p>About Us</p>
+        <p>Delivery Information</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="contact">
+        <h4>My Account</h4>
+        <br />
+        <p>Sign Up</p>
+        <p>View Cart</p>
+        <p>My WishList</p>
+        <p>Track My Order</p>
+        <p>Help</p>
+      </div>
+      <div class="contact">
+        <h4>Iinstall App</h4>
+        <br />
+        <p>From Play Store Or Google Play</p>
+        <div class="logo_playstore_app">
+          <img src="./assets/pay/app.jpg" />
+          <img src="./assets/pay/play.jpg" />
+        </div>
+
+        <p>Secured Payment GateWays</p>
+        <img src="./assets/pay/pay.png" />
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
